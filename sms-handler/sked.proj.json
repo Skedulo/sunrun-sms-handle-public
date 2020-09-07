@@ -1,0 +1,8 @@
+{
+    "type": "function",
+    "runtime": "nodejs12.x",
+    "name": "sms-handler",
+    "description": "more than 3 characters",
+    "genTypes": false
+  }
+  

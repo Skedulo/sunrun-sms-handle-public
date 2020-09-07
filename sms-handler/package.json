@@ -1,0 +1,28 @@
+{
+  "name": "sms-handler",
+  "version": "1.0.0",
+  "description": "sms response handler",
+  "private": true,
+  "main": "dist/handler",
+  "scripts": {
+    "bootstrap": "yarn install --frozen-lockfile --audit --ignore-scripts",
+    "dev": "tsc --watch --preserveWatchOutput",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "8",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^8.3.3",
+    "@types/lodash": "^4.14.135",
+    "@types/node-fetch": "^2.5.7",
+    "axios": "^0.19.0",
+    "awesome-phonenumber": "^2.27.0",
+    "geolib": "^3.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.6.0",
+    "path-to-regexp": "^3.0.0"
+  }
+}

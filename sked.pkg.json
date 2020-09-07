@@ -1,0 +1,19 @@
+{
+  "name": "sunrun-sms-handler",
+  "version": "1",
+  "description": "",
+  "summary": "This is an api for sunrun",
+  "components": {
+    "mobilepages": {
+      "items": []
+    },
+    "functions": {
+      "items": ["sms-handler"]
+    },
+    "webpages": {
+      "items": []
+    }
+  },
+  "relationships": [],
+  "linkedComponents": []
+}

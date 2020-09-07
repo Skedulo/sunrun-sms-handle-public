@@ -1,0 +1,1 @@
+curl -s -X GET -H "Authorization: Bearer $SKEDULO_TOKEN" -d @temp1.json "https://api.skedulo.com/webhooks"
